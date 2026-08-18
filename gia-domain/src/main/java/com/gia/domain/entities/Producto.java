@@ -28,6 +28,7 @@ public class Producto {
         this.volumen = volumen;
         this.fechaCaducidad = fechaCaducidad;
         this.codigoBarras = codigoBarras;
+        
     }
 
     public int getId() {
