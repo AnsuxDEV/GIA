@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "gia-ui/src/main/java",
+        "gia-domain/src/main/java",
+        "gia-di/src/main/java",
+        "gia-data/src/main/java",
+        "gia-core/src/main/java",
+        "gia-usecases/src/main/java"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
