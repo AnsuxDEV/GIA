@@ -1,3 +1,5 @@
+package com.gia.usecases.movimiento;
+
 import java.util.List;
 
 import com.gia.domain.entities.Movimiento;
@@ -13,6 +15,5 @@ public class ConsultarTodosMovimientos {
 
     public List<Movimiento> execute() {
         return movimientoRepository.findAll();
-        //No recibe parámetros porque busca todos los movimientos.
     }
 }

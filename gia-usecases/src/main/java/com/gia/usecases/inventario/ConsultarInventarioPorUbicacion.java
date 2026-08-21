@@ -2,6 +2,7 @@ package com.gia.usecases.inventario;
 
 import java.util.List;
 
+import com.gia.domain.entities.Inventario;
 import com.gia.domain.repositories.InventarioRepository;
 
 public class ConsultarInventarioPorUbicacion {
@@ -12,6 +13,6 @@ public class ConsultarInventarioPorUbicacion {
     }
 
     public List<Inventario> execute(int ubicacionId) {
-        return inventarioRepository.findByUbicacion(ubicacionId); /* Devuelve los inventarios de una ubicación concreta */
+        return inventarioRepository.findByUbicacion(ubicacionId);
     }
 }

@@ -1,3 +1,5 @@
+package com.gia.usecases.movimiento;
+
 import java.util.List;
 
 import com.gia.domain.entities.Movimiento;
@@ -13,7 +15,6 @@ public class ConsultarMovimientoPorUsuario {
 
     public List<Movimiento> execute(int usuarioId) {
         return movimientoRepository.findByUsuario(usuarioId);
-        //Recibe el ID del usuario, llama al repositorio y obtiene los movimientos del usuario. Devuelve una lista.
     }
-    
 }
+

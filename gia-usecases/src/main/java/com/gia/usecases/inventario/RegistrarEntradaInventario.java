@@ -13,7 +13,7 @@ public class RegistrarEntradaInventario {
 
     public void execute(int inventarioId, int cantidad) {
         Inventario inv = inventarioRepository.findById(inventarioId);
-        inv.setCantidad(inv.getCantidad() + cantidad); // Recibe el inventario para modificar y lo que se le suma
+        inv.setCantidad(inv.getCantidad() + cantidad);
         inventarioRepository.update(inv);
     }
 }
